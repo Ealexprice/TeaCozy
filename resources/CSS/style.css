@@ -1,9 +1,83 @@
+
+header{
+  display:flex;
+  align-items: center;
+  font-size: 22px;
+  font-family: Verdana;
+  font-weight: bold;
+  background-color: black;
+  align-content: flex-end;
+  height:69px;
+  width: auto;
+  border-bottom: solid 1px white;
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+  padding: 10px;
+}
+.logo{
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  color: seashell;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  opacity: 0.9;
+  padding-left: 10px;
+  font-family: "lifecraft";
+  src: url("lifecraft_font.TTF");
+}
+
+
+body nav{
+ margin-left: 10px;
+ flex-wrap: nowrap;
+ padding:10px;
+ margin: auto;
+ display:flex;
+ align-content: center;
+ background-color: black;
+
+}
 body{
   background-color: black;
-  display:flex;
-  align-content: center;
+
 }
-header{
+.image.box1{
+  display:flex;
+  align-items: center;
+  width:40px;
+  height:50px;
+  
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+.image.box2{
+  display:flex;
+  align-items: center;
+  width:40px;
+  height:50px;
+
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.image.box3{
+  display:flex;
+  align-items: center;
+  width:40px;
+  height:50px;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+/*header{
   display: flex;
   position: fixed;
   flex-direction: row;
@@ -13,7 +87,7 @@ header{
   background-color: black;
   height: 69px;
   align-items: center;
-}
+}*
 .cozytea{
   font-size: 22px;
   opacity: 0.9;
@@ -22,11 +96,12 @@ header{
   padding-left: 10px;
   color: seashell;
   justify-content: flex-start;
-}
+}*/
 main{
   align-items: center;
+
 }
-nav{
+/*nav{
 display: flex;
 flex-direction: row;
 background-color: black;
@@ -36,7 +111,7 @@ align-content:flex-end;
 text-decoration: underline;
 height: 69px;
 word-spacing: 25px;
-}
+}*/
 a, a:visited{
      color: seashell;
 }
@@ -54,11 +129,20 @@ h2{
 }
 h3{
   color:white;
-
-}
-.image,.images2{
+  text-align: center;
+  align-items: center;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.image{
+  display:flex;
   flex-wrap: nowrap;
   width: 200px;
   height: 300px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
