@@ -1,32 +1,30 @@
 body{
   background-color: black;
+  display:flex;
+  align-content: center;
 }
-  header{
+header{
   display: flex;
   position: fixed;
   flex-direction: row;
   font-family: Helvetica;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
+  width: 1300px;
   border-bottom: solid 1px seashell;
-  width: auto;
+  background-color: black;
   height: 69px;
-
+  align-items: center;
 }
 .cozytea{
   font-size: 22px;
-  background-color: black;
   opacity: 0.9;
   height: 69px;
   width: 200px;
-  flex-wrap: nowrap;
   padding-left: 10px;
   color: seashell;
-  align-items: center;
   justify-content: flex-start;
-
-
+}
+main{
+  align-items: center;
 }
 nav{
 display: flex;
@@ -34,11 +32,9 @@ flex-direction: row;
 background-color: black;
 align-items: center;
 flex-wrap: nowrap;
+align-content:flex-end;
 text-decoration: underline;
-
-margin: auto;
 height: 69px;
-width: 1300px;
 word-spacing: 25px;
 }
 a, a:visited{
@@ -47,4 +43,22 @@ a, a:visited{
 .backgroundimage{
   width: 1200px;
   height: 700px;
+}
+h2{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  color: white;
+
+}
+.ourmission{
+  align-items: center;
+}
+h3{
+  color:white;
+
+}
+.image,.images2{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 200px;
+  height: 300px;
 }
