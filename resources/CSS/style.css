@@ -206,27 +206,44 @@ justify-content: center;
 /*----------------------------------------------------------------*/
 /* with the bottom tag, the locations are horizonal and in correction position*/
 bottom{
-  display:flex;
+  display:inline-flex;
   justify-content: center;
   align-items: center;
+  background-repeat:no-repeat;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  padding: 70px;
+  height:500px;
+
 
 }
 .location h3{
   font-weight: bold;
   background: black;
   width: 300px;
-  height: auto;
   text-decoration-color: white;
+  padding: 10px;
+
+
 }
 .location{
-  justify-content: center;
+  display: inline-block;
+  background-color: black;
+  border: 1px solid blue;
+  opacity: 1.0;
 }
- #bottomimage{
+#bottomimage{
+  display:flex;
+}
+
+/* #bottomimage h3 p{
   background-repeat:no-repeat;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
-  align-items:center;
-  height:500px;
-  width: auto;
+  padding: 70px;
+  height:500px;*/
+
+}
+footer{
+
 }
 /*.bottomtea img{
   align-items:center;
