@@ -9,10 +9,9 @@ body{
   text-align: center;
   font-size: 22px;
   color: seashell;
-/*  margin: 0;
-
-
-  */
+  margin: 0px;
+  padding: 0px;
+  /*  margin: 0;*/
 }
 
 
@@ -28,10 +27,11 @@ header{
   align-content: flex-end;
   border-bottom: solid 1px seashell;
   position: fixed;
-  padding-top:10px;
-  padding-bottom: 10px;
+  margin:0;
+  padding:0;
   height: 69px;
   width:100%;
+  overflow: auto;
 }
 .logo img{
   display: flex;
@@ -41,6 +41,7 @@ header{
   padding-left: 10px;
   height: 50px;
   width: auto;
+  margin: 0;
 
 }
 
@@ -95,13 +96,15 @@ word-spacing: 25px;
 #missioncover span{
   font-size:1.5em;
   font-weight: bold;
+
 }
 #missioncover h4{
   font-size: 1em;
+
 }
 
 #missioncover {
-  height:120px;
+  height:100px;
   width: 1200px;
   background: black;
   justify-content: center;
@@ -109,6 +112,7 @@ word-spacing: 25px;
   align-content: center;
   display: flex;
   flex-direction: column;
+  padding-top:10px;
   }
   /*#organictea {
       width: 1200px;
@@ -118,28 +122,42 @@ word-spacing: 25px;
       background: black;
       color:white;
     }*/
+.tea h2{
+    display:block;
+    padding-top:80px;
 
+    margin:0;
+    }
+h4{
+
+  padding:10px;
+  margin:15px 0px 0px 0px;
+}
 .pictures{
   display: inline-block;
   align-items:center;
   justify-content: center;
+  margin-bottom: 50px;
+  font-weight: bold;
+
 }
 img {
     height: 200px;
     margin: 10px;
     display: block;
     width: 300px;
+    padding-left:10px;
     }
 
 .line1{
   display:flex;
-  padding: 20px 10px;
+  padding:10px;
   align-items:center;
 
 }
 .line2{
   display:inline-flex;
-  padding: 20px 10px;
+  padding:10px;
   align-items:center;
 }
 
@@ -206,33 +224,39 @@ justify-content: center;
 /*----------------------------------------------------------------*/
 /* with the bottom tag, the locations are horizonal and in correction position*/
 bottom{
-  display:inline-flex;
-  justify-content: center;
+  display:inline-block;
   align-items: center;
   background-repeat:no-repeat;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   padding: 70px;
   height:500px;
-
+}
+.address .location{
+  display: inline-grid;
 
 }
 .location h3{
   font-weight: bold;
-  background: black;
-  width: 300px;
   text-decoration-color: white;
-  padding: 10px;
-
-
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .location{
-  display: inline-block;
+  display:inline-flex;
   background-color: black;
-  border: 1px solid blue;
+
   opacity: 1.0;
+  width: 300px;
+  margin-left: 20px;
+  margin-right: 20px;
+  flex-wrap:nowrap;
 }
-#bottomimage{
-  display:flex;
+.place{
+  display:block;
+}
+.place h2{
+  margin: 0;
 }
 
 /* #bottomimage h3 p{
@@ -241,10 +265,6 @@ bottom{
   padding: 70px;
   height:500px;*/
 
-}
-footer{
-
-}
 /*.bottomtea img{
   align-items:center;
   height:500px;
@@ -270,5 +290,5 @@ h5{
 }
 h2{
   padding-top:10px;
-  padding-bottom:15px;
+  padding-bottom:0px;
 }
